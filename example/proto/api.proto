@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package example;
+
+option go_package = "go-protobuf-namespace-conflict/example/proto;example";
+
+message SampleMessage {
+  string text = 1;
+}
